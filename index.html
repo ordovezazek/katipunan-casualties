@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="A geography of goodbyes | The GUIDON">
+	<meta property="og:image" content="portal.png" />
+	<title>A geography of goodbyes | The GUIDON</title>
+	<link rel="icon" href="components/icon.png" type="image/icon type">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="load">
+		<div class="spin"></div>
+	</div>
+
+	<div id="envelope">
+		<div class="content">
+			<img class="vantage" src="components/vantage.png" alt="vantage">
+			<h2>A geography of goodbyes</h2>
+			<p>Interactive designed and developed by Abby Moreno, Jonathan Talbot, and Zekie Ordoveza<br>Graphics by Mikhaella Norlin Magat</p>
+			<div class="down">
+				<p>Scroll down</p>
+				<img src="components/down.svg" alt="down">
+			</div>
+		</div>
+	</div>
+
+	<!-- Desktop Map -->
+	<div id="desktop-map" class="map-container">
+			<svg class="map" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3508 2383" preserveAspectRatio="xMinYMin meet" >
+		
+			<image width="3508" height="2383" xlink:href="components/maps/desktop-background.webp">
+				</image>
+
+				<g>
+
+				<g id="rooftop" class="hover">
+					<a href="#">
+						<image x="180" y="350" width="500" height="500" xlink:href="components/stickers/rooftop.png"></image>
+					</a>
+				</g>
+
+				<g id="ricetop" class="hover">
+					<a href="#">
+						<image x="340" y="750" width="750" height="750" xlink:href="components/stickers/ricetop.png"></image>
+					</a>
+				</g>
+
+				<g id="boscoffee" class="hover">
+					<a href="#">
+						<image x="420" y="1300" width="500" height="500" xlink:href="components/stickers/boscoffee.png"></image>
+					</a>
+				</g>
+
+				<g id="ministop" class="hover">
+					<a href="#">
+						<image x="960" y="1100" width="500" height="500" xlink:href="components/stickers/ministop.png"></image>
+					</a>
+				</g>
+
+				<g id="myplace" class="hover">
+					<a href="#">
+						<image x="1100" y="350" width="750" height="750" xlink:href="components/stickers/myplace.png"></image>
+					</a>
+				</g>
+
+				<g id="common" class="hover">
+					<a href="#">
+						<image x="1650" y="800" width="750" height="750" xlink:href="components/stickers/common.png"></image>
+					</a>
+				</g>
+
+				<g id="pancake" class="hover">
+					<a href="#">
+						<image x="1200" y="1800" width="550" height="550" xlink:href="components/stickers/pancake.png"></image>
+					</a>
+				</g>
+
+				<g id="browns" class="hover">
+					<a href="#">
+						<image x="1700" y="1450" width="700" height="700" xlink:href="components/stickers/browns.png"></image>
+					</a>
+				</g>
+
+				<g id="yellow" class="hover">
+					<a href="#">
+						<image style="transform-box: fill-box;transform: scaleX(-1);transform-origin: center;" x="2550" y="1200" width="700" height="700" xlink:href="components/stickers/yellow.png"></image>
+					</a>
+				</g>
+
+				<g id="cinema" class="hover">
+					<a href="#">
+						<image x="2350" y="250" width="750" height="750" xlink:href="components/stickers/cinema.png"></image>
+					</a>
+				</g>
+
+				<rect class="visible tint" width="3508" height="2383" fill="#303030" fill-opacity="0.5"></rect>
+
+				</g>
+
+
+			</svg>
+		<div class="footer hide">
+			<p>Click on the stickers to read the letters</p>
+		</div>
+		<div class="visible m-tint tint"></div>
+	</div>
+
+	<!-- Mobile Map -->
+	<div id="mobile-map" class="map-container">
+			<svg class="map" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2383 3508" preserveAspectRatio="xMinYMin meet" >
+				<image width="2383" height="3508" xlink:href="components/maps/mobile-background.webp">
+				</image>
+
+				<g>
+
+				<g id="rooftop" class="hover">
+					<a href="#">
+						<image x="928" y="2971" width="500" height="500" xlink:href="components/stickers/rooftop.png"></image>
+					</a>
+				</g>
+
+				<g id="ricetop" class="hover">
+					<a href="#">
+						<image x="250" y="2550" width="800" height="800" xlink:href="components/stickers/ricetop.png"></image>
+					</a>
+				</g>
+
+				<g id="boscoffee" class="hover">
+					<a href="#">
+						<image x="1000" y="2450" width="600" height="600" xlink:href="components/stickers/boscoffee.png"></image>
+					</a>
+				</g>
+
+				<g id="ministop" class="hover">
+					<a href="#">
+						<image x="500" y="2150" width="600" height="600" xlink:href="components/stickers/ministop.png"></image>
+					</a>
+				</g>
+
+				<g id="myplace" class="hover">
+					<a href="#">
+						<image x="215" y="1250" width="750" height="750" xlink:href="components/stickers/myplace.png"></image>
+					</a>
+				</g>
+
+				<g id="common" class="hover">
+					<a href="#">
+						<image x="870" y="1300" width="800" height="800" xlink:href="components/stickers/common.png"></image>
+					</a>
+				</g>
+
+				<g id="pancake" class="hover">
+					<a href="#">
+						<image x="1650" y="750" width="550" height="550" xlink:href="components/stickers/pancake.png"></image>
+					</a>
+				</g>
+
+				<g id="browns" class="hover">
+					<a href="#">
+						<image x="1600" y="1570" width="700" height="700" xlink:href="components/stickers/browns.png"></image>
+					</a>
+				</g>
+
+				<g id="yellow" class="hover">
+					<a href="#">
+						<image style="transform-box: fill-box;transform: scaleX(-1);transform-origin: center;" x="1400" y="200" width="700" height="700" xlink:href="components/stickers/yellow.png"></image>
+					</a>
+				</g>
+
+				<g id="cinema" class="hover">
+					<a href="#">
+						<image x="300" y="300" width="850" height="850" xlink:href="components/stickers/cinema.png"></image>
+					</a>
+				</g>
+
+				<rect class="visible tint" width="2383" height="3508" fill="#303030" fill-opacity="0.5"></rect>
+
+				</g>
+
+
+			</svg>
+		<div class="footer hide">
+			<p>Click on the stickers to read the letters</p>
+		</div>
+		<div class="visible m-tint tint"></div>
+	</div>
+
+	<!-- Article Letter -->
+	<div id="letter" class="hide">
+		<div class="polaroid">
+			<img src="" alt="">
+		</div>
+
+		<div class="text">
+			<div class="title"></div>
+			<div class="author"></div>
+			<div class="body"></div>
+		</div>
+
+		<img class="close" src="components/close.svg">
+
+		<div class="d-scroll">
+			<img class="left arrow" src="components/left.svg">
+			<img class="right arrow" src="components/right.svg">
+		</div>
+		<div class="m-scroll">
+			<img class="left arrow" src="components/left.svg">
+			<div class="scroll-name"></div>
+			<img class="right arrow" src="components/right.svg">
+		</div>
+	</div>
+
+	<!-- Preload -->
+	<div id="hiddenImages" style="display: none;"></div>
+<script src="main.js"></script>
+</body>
+</html>
